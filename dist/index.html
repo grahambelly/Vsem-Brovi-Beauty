@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vsem Brovi Beauty</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link href="animate.css" rel="stylesheet">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#slides">VsemBrovi Beauty</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#about" class="nav-link">About Us</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our
+							Works
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown01">
+							<a class="dropdown-item" href="#works">Permanent Makeup</a>
+							<a class="dropdown-item" href="#works">Eyebrow Design</a>
+							<a class="dropdown-item" href="#works">Eyelash Works</a>
+							<a class="dropdown-item" href="#works">Custom Makeup</a>
+							<a class="dropdown-item" href="#works">Teeth Polishing</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Experts
+							Team
+						</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown01">
+							<a class="dropdown-item" href="#team">Zhargalama</a>
+							<a class="dropdown-item" href="#team">Asya</a>
+							<a class="dropdown-item" href="#team">Maria</a>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a href="#social" class="nav-link">Social Media</a>
+					</li>
+					<li class="nav-item">
+						<a href="#footer" class="nav-link">Contact</a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+	</nav>
+
+	<!--- Image Slider -->
+	<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			<li data-target="#slides" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/face.jpg" alt="slides">
+				<div class="carousel-caption">
+					<h1 class="display-2">Vsem Brovi</h1>
+					<h3>Complete Body Beauty</h3>
+
+					<button type="button" class="btn btn-primary btn-lg">View More</button>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="img/makyaj.jpg" alt="slides">
+			</div>
+			<div class="carousel-item">
+				<img src="img/kalici.jpg " alt="slides">
+			</div>
+		</div>
+	</div>
+	<!--- Jumbotron -->
+	<div class="container-fluid animated bounceInUp">
+		<div class="row jumbotron">
+
+
+			<div class="col-12" style="text-align:right">
+				<form class="form-inline" action="">
+					<div style="margin-right:.2rem" class="form-group">
+						<label class="sr-only" for="phone">Date</label>
+						<input type="date" class="form-control" id="date" name="date">
+					</div>
+					<div style="margin-right:.2rem" class="form-group">
+						<label class="sr-only" for="subject">subject</label>
+						<select type="text" class="form-control" id="subject" name="subject">
+							<option value="">Select Subject</option>
+							<option value="Permanent Makeup">Permanent Makeup</option>
+							<option value="Custom Makeup">Custom Makeup</option>
+							<option value="Eyebrow Design">Eyebrow Design</option>
+							<option value="Eyelash Works">Eyelash Works</option>
+							<option value="Teeth Polishing">Teeth Polishing</option>
+						</select>
+					</div>
+					<div style="margin-right:.2rem" class="form-group">
+						<label class="sr-only" for="phone">Phone</label>
+						<input type="text" class="form-control" id="phone" placeholder="Phone Number" name="phone">
+					</div>
+
+					<button style="margin-right:.2rem" type="submit" class="btn btn-primary">Submit Randevouz</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!--- Two Column Section -->
+	<div id="about" class="container-fluid" style="padding-top:35px">
+		<div class="row padding">
+			<div class="col-md-12 col-lg-6"><br>
+				<h2 style="text-align:center">Our Philosophy...</h2>
+				<hr class="light">
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aperiam aspernatur aut rem modi ex totam quos adipisci?
+					Eaque dolore hic recusandae inventore facere, commodi corrupti porro eligendi rerum minima voluptates dolorum quasi
+					quidem maiores temporibus sunt quibusdam. Est cupiditate blanditiis mollitia, eos animi nulla dignissimos modi velit
+					voluptate dolorum?</p>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque aperiam aspernatur aut rem modi ex totam quos adipisci?
+					Eaque dolore hic recusandae inventore facere, commodi corrupti porro eligendi rerum minima voluptates dolorum quasi
+					quidem maiores temporibus sunt quibusdam. Est cupiditate blanditiis mollitia, eos animi nulla dignissimos modi velit
+					voluptate dolorum?</p><br>
+			</div>
+			<div class="col-md-12 col-lg-6">
+				<img src="img/studyo.jpg" alt="studyo" class="img-fluid">
+			</div>
+		</div>
+
+	</div>
+
+
+	<!--- Fixed background -->
+	<figure>
+		<div class="fixed-wrap">
+			<div id="fixed">
+
+			</div>
+		</div>
+	</figure>
+
+
+
+	<!--- our works -->
+	<div id="works" class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Our Works</h1>
+			</div>
+			<hr class="light">
+		</div>
+	</div>
+
+	<!--- Cards -->
+	<div id="works" class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-3">
+				<div class="card">
+					<img src="img/perma.jpg" alt="perma" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Permament Makeup</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi.</p>
+						<a href="#" class="btn btn-primary">See Works</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card">
+					<img src="img/custom.jpg" alt="custom" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Custom Makeup</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi.</p>
+						<a href="#" class="btn btn-primary">See Works</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card">
+					<img src="img/eye.jpg" alt="eye" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Eyebrow & Eyelash</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi.</p>
+						<a href="#" class="btn btn-primary">See Works</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="card">
+					<img src="img/teeth.jpg" alt="teeth" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Teeth Polish</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi.</p>
+						<a href="#" class="btn btn-primary">See Works</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--- Meet the team -->
+	<div id="team" class="container-fluid padding">
+		<div class="row welcome text-center">
+			<div class="col-12">
+				<h1 class="display-4">Meet the Team</h1>
+			</div>
+			<hr class="light">
+		</div>
+	</div>
+
+	<!--- Cards -->
+	<div class="container-fluid padding">
+		<div class="row padding">
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/team1.png" alt="team1" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Zhargalma</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi.</p>
+						<a href="#" class="btn btn-primary">See Works</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/team2.png" alt="team2" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Asya</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi.</p>
+						<a href="#" class="btn btn-primary">See Works</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card">
+					<img src="img/team3.png" alt="team3" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">Maria</h4>
+						<p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, sequi.</p>
+						<a href="#" class="btn btn-primary">See Works</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--- Connect -->
+	<div id="social" class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="col-12">
+				<br><br>
+				<h1 class="display-4">Social Media</h1>
+			</div>
+			<hr class="light">
+			<div class="col-12 social padding">
+				<a href="#"><i class="fab fa-facebook"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-youtube"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Footer -->
+	<footer id="footer">
+		<div class="col-12">
+			<h1 style="text-align: center" class="display-4">Contact</h1>
+		</div>
+		<hr class="light">
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-3 cont">
+					<h5>VsemBrovi Beauty</h5>
+					<hr class="light">
+					<p><a href="tel:+79-555-555-5555">(+79) 555 55 55</a></p>
+					<p><a href="mailto:VsemBrovi@gmail.com">VsemBrovi@gmail.com</a></p>
+					<p>Большая Ордынка, 38</p>
+					<p>Москва</p>
+				</div>
+				<div class="col-md-3">
+
+					<h5>Our hours</h5>
+					<hr class="light">
+					<p>Monday:9am - 5pm</p>
+					<p>Saturday:11am - 3pm</p>
+					<p>Sunday:Closed</p>
+				</div>
+				<div class="col-md-6">
+
+					<h5>How to Reach Us</h5>
+					<hr class="light">
+					<div id="googlemaps" class="google-map google-map-footer">
+						<iframe width="90%" height="250px" frameborder="0" style="border: 0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAgZI3mRMMrlIIalPKoQ5Lqa751cVx9A9s&q=Большая Ордынка 38, Москва"
+						 allowfullscreen></iframe>
+					</div>
+
+				</div>
+				<div class="col-12">
+					<hr class="light">
+					<a class="navbar-brand" href="#">&copy; Vsem Brovi Inc.</a>
+
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+<script>
+	$(document).ready(function () {
+		// Add smooth scrolling to all links in navbar + footer link
+		$(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+			// Make sure this.hash has a value before overriding default behavior
+			if (this.hash !== "") {
+				// Prevent default anchor click behavior
+				event.preventDefault();
+
+				// Store hash
+				var hash = this.hash;
+
+				// Using jQuery's animate() method to add smooth page scroll
+				// The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+				$('html, body').animate({
+					scrollTop: $(hash).offset().top
+				}, 500, function () {
+
+					// Add hash (#) to URL when done scrolling (default click behavior)
+					window.location.hash = hash;
+				});
+			} // End if
+		});
+
+		$(window).scroll(function () {
+			$(".slideanim").each(function () {
+				var pos = $(this).offset().top;
+
+				var winTop = $(window).scrollTop();
+				if (pos < winTop + 600) {
+					$(this).addClass("slide");
+				}
+			});
+		});
+	})
+</script>
+
+</html>
